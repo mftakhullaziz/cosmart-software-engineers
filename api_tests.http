@@ -1,0 +1,23 @@
+POST http://localhost:8080/books/schedule
+Content-Type: application/json
+
+{
+  "book_info": {
+    "title": "test1",
+    "author": [
+      "author1",
+      "author2"
+    ],
+    "edition_number": 1
+  },
+  "pick_up_date": "2023-12-01",
+  "genre": "god"
+}
+
+###
+
+GET http://localhost:8080/books/god
+Accept: application/json
+
+###
+
