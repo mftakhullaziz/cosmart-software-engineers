@@ -2,12 +2,13 @@
 Test software engineer - cosmart
 
 #### How running this code
-    if want running using makefile this docs for use, please before run see makefile for details.
-    start service: make run/service
-    clean cache: make clean/cache
-    download package: make run/download
-    remove package: make clean/package
-    coveraget unit testing: make test/coverage
+    please before run using makefile see makefile for details.
+    command:
+    make run/service => (start service)
+    make clean/cache => (clean cache)
+    make run/download => (download package)
+    make clean/package => (remove package)
+    make test/coverage => (coverage unit testing)
 
 #### API Curl
     Get Books By Genre:
